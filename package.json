@@ -20,8 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start --host 192.168.78.227",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start --host 192.168.78.227",
+    "build": "node init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
